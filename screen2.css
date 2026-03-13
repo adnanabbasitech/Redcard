@@ -9,7 +9,7 @@ body{
     align-items: center;
     justify-content: center;
     padding: 5px;
-     background-color: rgba(0, 0, 0, 0.872);
+     /* background-color: rgba(0, 0, 0, 0.872); */
 }
 .container{
        width:300px;
@@ -144,3 +144,4 @@ margin-top: 5px;
      margin-left: 1px;
      padding: 30px;
 }
+
