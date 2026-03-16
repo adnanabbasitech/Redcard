@@ -1,18 +1,19 @@
 *{
    margin: 0;
    padding: 0;
-   font-family:  Geneva, Verdana, sans-serif;
+   font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
+
 body{
+
     display: flex;
     align-items: center;
-    justify-content: center;
+     justify-content: center; 
     padding: 5px;
-     /* background-color: rgba(0, 0, 0, 0.872); */
 }
 .container{
-       width:300px;
+       width:100%;
     padding-bottom: 0px;
     padding-top: 0px;
    
@@ -27,13 +28,15 @@ body{
 
 .hero{
    color: white;
+   
 
 }
 .herocontent{
-  padding: 30px;
+  padding: 120px;
   margin-left: 1px;
   padding-top: 15px;
-  padding-bottom: 30px;
+  padding-bottom: 150px;
+  padding-top: 50px;
   
 }
 
@@ -43,60 +46,66 @@ body{
     0 0,
     100% 0,
     100% 83%,
-    87% 100%,
+    89% 100%,
     0 100%
   );
 }
 .hero h1{
-    font-size: 25px;
+    font-size: 100px;
+    font-weight:800;
 }
 .hero h2{
-    font-size: 12px;
+    font-size: 48px;
     color: rgb(0, 0, 0);
+    font-weight: 800;
 }
 .hero p{
     color: rgb(255, 255, 255);
-    font-weight:500;
+    font-weight:400;
     line-height: 1.7;
     margin-top: 10px;
     margin-bottom: 0px;
-     text-align: justify;
+     /* text-align: justify; */
+     font-size: 22px;
 }
  
 .herologo img{
-    width: 50px;
+    width: 200px;
+    margin-bottom: 10px;
    
 }
 .clubmain-headindg{ 
 display: flex;
-gap:5px;
+gap:20px;
 align-items: flex-end;
 }
  
 .clubmain-headindg img{
- width: 13px;
- height: 13px;
+ width: 51px;
+ height: 51px;
  align-self: center;
+ margin-top: 7px;
 
 }
 span{
     color: brown;
     font-weight: bold;
-    font-size: 5px;
+    font-size: 25px;
 }
 h1{
-    font-size:17px;
+    font-size:76px;
+    font-weight: 800;
    
 }
 p{
-    font-size: 5px;
+    font-size: 25px;
     font-weight: bold;
-    margin-bottom: 25px;
+    margin-bottom: 120px;
 }
 .main{
     background-color: white;
     margin: auto;
-    padding: 30px;
+    padding: 120px;
     padding-top: 10;
     padding-bottom: 0px;
 }
@@ -116,32 +125,41 @@ margin-top: 5px;
 
 }
 .clublogo img{
-    width: 32px;
-    margin-top: 8px;
+    width: 120px;
+    margin-top: 50px;
     margin-bottom: 8px;
 }
 .content{
     background-color: white;
 }
+.footercontent h2{
+font-weight: 800;
+font-size: 55px;
+}
 .footercontent{
-  font-size: 9px;
+   
+ 
   color: white;
+  line-height: 1.05;
+  padding-top: 100px;
+  padding-bottom: 100px;
+  margin-right: 80px;
 }
 .cut-box1{
   background:rgb(169, 48, 48);
   clip-path: polygon(
     0 0,
     100% 0,
-    100% 70%,
-    88% 100%,
+    100% 60%,
+    89% 100%,
     0 100%
   );
 }
 .footer{
+    
     display: flex;
     align-items: center;
     justify-content: center;
      margin-left: 1px;
-     padding: 30px;
-}
 
+}
